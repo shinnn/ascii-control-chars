@@ -1,10 +1,9 @@
 # ascii-control-chars
 
-[![NPM version](https://img.shields.io/npm/v/ascii-control-chars.svg)](https://www.npmjs.com/package/ascii-control-chars)
-[![Bower version](https://img.shields.io/bower/v/ascii-control-chars.svg)](https://github.com/shinnn/ascii-control-chars/releases)
-[![Build Status](https://travis-ci.org/shinnn/ascii-control-chars.svg?branch=master)](https://travis-ci.org/shinnn/ascii-control-chars)
+[![npm version](https://img.shields.io/npm/v/ascii-control-chars.svg)](https://www.npmjs.com/package/ascii-control-chars)
+[![Build Status](https://travis-ci.com/shinnn/ascii-control-chars.svg?branch=master)](https://travis-ci.com/shinnn/ascii-control-chars)
 
-An array of ASCII control characters
+An `Array` of ASCII control characters
 
 ```javascript
 import asciiControlChars from 'ascii-control-chars';
@@ -20,23 +19,21 @@ asciiControlChars.includes('b'); //=> false
 
 ## Installation
 
-### [npm](https://www.npmjs.com/)
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install ascii-control-chars
 ```
 
-### [bower](https://bower.io/)
-
-```
-bower install ascii-control-chars
-```
-
 ## API
 
-### caretNotationCharacters
+```javascript
+import asciiControlChars from 'ascii-control-chars';
+```
 
-Type: `Array` of strings
+### asciiControlChars
+
+Type: `Array<string>`
 
 ## License
 
